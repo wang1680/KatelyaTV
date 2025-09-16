@@ -31,9 +31,6 @@ RATE_LIMIT_WINDOW = "60000"
 # 健康检查配置
 HEALTH_CHECK_ENABLED = "true"
 HEALTH_CHECK_INTERVAL = "30"
-USERNAME="wchen"
-PASSWORD="w.123456"
-NEXT_PUBLIC_ENABLE_REGISTER="false"
 
 # 日志配置
 LOG_LEVEL = "info"
@@ -41,6 +38,9 @@ LOG_FORMAT = "json"
 
 # 生产环境标识
 NODE_ENV = "production"
+USERNAME= "wchen"
+PASSWORD= "w.123456"
+NEXT_PUBLIC_ENABLE_REGISTER= "false"
 
 [[env.production.d1_databases]]
 binding = "DB"
