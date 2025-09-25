@@ -45,7 +45,7 @@ NEXT_PUBLIC_ENABLE_REGISTER= "false"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "46433f6c-5abf-403b-9123-8af5170e368a"
+database_id = "c6c4ed7a-cc73-4c29-9e6f-245781eed094"
 
 [build]
 command = "pnpm pages:build"
